@@ -1,0 +1,10 @@
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\bin\Debug\Form_de_boutons_App.exe.config
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\bin\Debug\Form_de_boutons_App.exe
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\bin\Debug\Form_de_boutons_App.pdb
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\obj\Debug\Form_de_boutons_App.csprojAssemblyReference.cache
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\obj\Debug\Form_de_boutons_App.Form1.resources
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\obj\Debug\Form_de_boutons_App.Properties.Resources.resources
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\obj\Debug\Form_de_boutons_App.csproj.GenerateResource.cache
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\obj\Debug\Form_de_boutons_App.csproj.CoreCompileInputs.cache
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\obj\Debug\Form_de_boutons_App.exe
+F:\Ecole\Annee 2\TRIMESTRE 1\C#\TP et TD\Form_de_boutons_App\Form_de_boutons_App\obj\Debug\Form_de_boutons_App.pdb

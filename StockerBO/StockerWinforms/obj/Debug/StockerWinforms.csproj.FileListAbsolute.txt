@@ -1,0 +1,257 @@
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.exe.config
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.exe
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.pdb
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerBLL.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerBO.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerDAL.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\MyLibsNet.Serialisation.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Newtonsoft.Json.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerBLL.pdb
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerBO.pdb
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\StockerDAL.pdb
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\MyLibsNet.Serialisation.pdb
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Newtonsoft.Json.xml
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csprojAssemblyReference.cache
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FormParent.resources
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.fourniseur.resources
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.Login.resources
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.POS.resources
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.Properties.Resources.resources
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.GenerateResource.cache
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.CoreCompileInputs.cache
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.CopyComplete
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.exe
+D:\universite\@2\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.pdb
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\EnvDTE.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\stdole.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.MSXML.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\universite\@2\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.exe.config
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.exe
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.pdb
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerBLL.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerBO.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerDAL.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\EnvDTE.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\MyLibsNet.Serialisation.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\stdole.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Newtonsoft.Json.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.MSXML.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerBLL.pdb
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerBO.pdb
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\StockerDAL.pdb
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\MyLibsNet.Serialisation.pdb
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\Newtonsoft.Json.xml
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csprojAssemblyReference.cache
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FormParent.resources
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.fourniseur.resources
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.Login.resources
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.POS.resources
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.Properties.Resources.resources
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.GenerateResource.cache
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.CoreCompileInputs.cache
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.CopyComplete
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.exe
+D:\Ecole\Annee 2\TRIMESTRE 1\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.pdb
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.exe.config
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.exe
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.pdb
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerBLL.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerBO.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerDAL.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\EnvDTE.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\MyLibsNet.Serialisation.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\stdole.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Newtonsoft.Json.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Microsoft.MSXML.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerBLL.pdb
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerBO.pdb
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\StockerDAL.pdb
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\MyLibsNet.Serialisation.pdb
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\Newtonsoft.Json.xml
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csprojAssemblyReference.cache
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.POS.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.Properties.Resources.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.GenerateResource.cache
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.CoreCompileInputs.cache
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.CopyComplete
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.exe
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.pdb
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmFacture.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmParent.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmFourniseur.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmLogin.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmCategorie.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmClient.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmCommande.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmStock.resources
+D:\Alpha\C#\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmAddProdFourn.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.exe.config
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.exe
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerWinforms.pdb
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerBLL.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerBO.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerDAL.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\EnvDTE.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\MyLibsNet.Serialisation.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\stdole.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Microsoft.MSXML.dll
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerBLL.pdb
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerBO.pdb
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\StockerDAL.pdb
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\MyLibsNet.Serialisation.pdb
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csprojAssemblyReference.cache
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmAddProdFourn.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmCategorie.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmClient.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmCommande.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmFacture.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmParent.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmFourniseur.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmLogin.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.FrmStock.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.Properties.Resources.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.GenerateResource.cache
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.CoreCompileInputs.cache
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.csproj.CopyComplete
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.exe
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.pdb
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\StockerWinforms.Facture.resources
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\RdlCompile.cache
+C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerWinforms\obj\Debug\RdlCompile.compiled

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{279E552E-26DB-4CF4-8C91-F705D58F2DD3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StockerWinforms</RootNamespace>
+    <AssemblyName>StockerWinforms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\CorrectionCC1\Facture\bin\Debug\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization">
+      <HintPath>..\..\..\..\CorrectionCC1\Facture\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design">
+      <HintPath>..\..\..\..\CorrectionCC1\Facture\bin\Debug\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.2.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\CorrectionCC1\Facture\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>..\..\..\..\CorrectionCC1\Facture\bin\Debug\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\CorrectionCC1\Facture\bin\Debug\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Facture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facture.designer.cs">
+      <DependentUpon>Facture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddProdFourn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddProdFourn.Designer.cs">
+      <DependentUpon>FrmAddProdFourn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCategorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategorie.Designer.cs">
+      <DependentUpon>FrmCategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClient.Designer.cs">
+      <DependentUpon>FrmClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCommande.Designer.cs">
+      <DependentUpon>FrmCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFacture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFacture.Designer.cs">
+      <DependentUpon>FrmFacture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmParent.Designer.cs">
+      <DependentUpon>FrmParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFourniseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFourniseur.Designer.cs">
+      <DependentUpon>FrmFourniseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStock.Designer.cs">
+      <DependentUpon>FrmStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="STButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThemeColor.cs" />
+    <EmbeddedResource Include="bin\Debug\Fac.rdlc" />
+    <EmbeddedResource Include="Facture.resx">
+      <DependentUpon>Facture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddProdFourn.resx">
+      <DependentUpon>FrmAddProdFourn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategorie.resx">
+      <DependentUpon>FrmCategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClient.resx">
+      <DependentUpon>FrmClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCommande.resx">
+      <DependentUpon>FrmCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFacture.resx">
+      <DependentUpon>FrmFacture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmParent.resx">
+      <DependentUpon>FrmParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFourniseur.resx">
+      <DependentUpon>FrmFourniseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStock.resx">
+      <DependentUpon>FrmStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\StockerBO.Commande.datasource" />
+    <None Include="Properties\DataSources\StockerBO.Produit.datasource" />
+    <None Include="Properties\DataSources\StockerBO.Stock.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StockerBLL\StockerBLL.csproj">
+      <Project>{73b34d96-2333-4a19-8c4d-cefcfca4e93a}</Project>
+      <Name>StockerBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockerBO\StockerBO.csproj">
+      <Project>{6ec19401-a9b2-4323-8b60-edf36f8c6be3}</Project>
+      <Name>StockerBO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockerDAL\StockerDAL.csproj">
+      <Project>{08ae1bbe-b0fd-464b-b64f-570456dddc70}</Project>
+      <Name>StockerDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19831-bubka-piechart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_bag_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_bag_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_rounded_left_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_out_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\external_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closed_eye_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_26px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
