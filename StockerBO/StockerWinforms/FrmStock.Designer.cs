@@ -76,7 +76,7 @@
             this.btnDelete = new StockerWinforms.STButton();
             this.btnCancel = new StockerWinforms.STButton();
             this.btnAdd = new StockerWinforms.STButton();
-            this.stButton1 = new StockerWinforms.STButton();
+            this.Print = new StockerWinforms.STButton();
             this.panel14.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -556,25 +556,26 @@
             this.btnAdd.TextColor = System.Drawing.Color.White;
             this.btnAdd.UseVisualStyleBackColor = false;
             // 
-            // stButton1
+            // Print
             // 
-            this.stButton1.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.stButton1.BackgroundColor = System.Drawing.Color.DarkTurquoise;
-            this.stButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.stButton1.BorderRadius = 20;
-            this.stButton1.BorderSize = 0;
-            this.stButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.stButton1.FlatAppearance.BorderSize = 0;
-            this.stButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.stButton1.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stButton1.ForeColor = System.Drawing.Color.White;
-            this.stButton1.Location = new System.Drawing.Point(806, 652);
-            this.stButton1.Name = "stButton1";
-            this.stButton1.Size = new System.Drawing.Size(113, 37);
-            this.stButton1.TabIndex = 130;
-            this.stButton1.Text = "Print";
-            this.stButton1.TextColor = System.Drawing.Color.White;
-            this.stButton1.UseVisualStyleBackColor = false;
+            this.Print.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.Print.BackgroundColor = System.Drawing.Color.DarkTurquoise;
+            this.Print.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.Print.BorderRadius = 20;
+            this.Print.BorderSize = 0;
+            this.Print.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Print.FlatAppearance.BorderSize = 0;
+            this.Print.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Print.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Print.ForeColor = System.Drawing.Color.White;
+            this.Print.Location = new System.Drawing.Point(806, 652);
+            this.Print.Name = "Print";
+            this.Print.Size = new System.Drawing.Size(113, 37);
+            this.Print.TabIndex = 130;
+            this.Print.Text = "Print";
+            this.Print.TextColor = System.Drawing.Color.White;
+            this.Print.UseVisualStyleBackColor = false;
+            this.Print.Click += new System.EventHandler(this.Print_Click);
             // 
             // FrmStock
             // 
@@ -582,7 +583,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1238, 717);
-            this.Controls.Add(this.stButton1);
+            this.Controls.Add(this.Print);
             this.Controls.Add(this.panel17);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel18);
@@ -684,6 +685,6 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.TextBox txtbEXP;
         private System.Windows.Forms.Panel panel19;
-        private STButton stButton1;
+        private STButton Print;
     }
 }

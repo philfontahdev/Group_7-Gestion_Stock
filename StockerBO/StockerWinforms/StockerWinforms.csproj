@@ -135,6 +135,7 @@
     </Compile>
     <Compile Include="ThemeColor.cs" />
     <EmbeddedResource Include="bin\Debug\Fac.rdlc" />
+    <EmbeddedResource Include="bin\Debug\stock.rdlc" />
     <EmbeddedResource Include="Facture.resx">
       <DependentUpon>Facture.cs</DependentUpon>
     </EmbeddedResource>

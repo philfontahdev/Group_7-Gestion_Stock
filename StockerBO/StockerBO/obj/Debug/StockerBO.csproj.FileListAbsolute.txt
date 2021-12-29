@@ -16,3 +16,9 @@ C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerBO\obj\Debug\Stocker
 C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerBO\obj\Debug\StockerBO.csproj.CoreCompileInputs.cache
 C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerBO\obj\Debug\StockerBO.dll
 C:\Users\PhilFontahDev911\Documents\Unique\StockerBO\StockerBO\obj\Debug\StockerBO.pdb
+C:\Users\PhilFontahDev911\source\repos\philfontahdev\Group_7-Gestion_Stock\StockerBO\StockerBO\bin\Debug\StockerBO.dll
+C:\Users\PhilFontahDev911\source\repos\philfontahdev\Group_7-Gestion_Stock\StockerBO\StockerBO\bin\Debug\StockerBO.pdb
+C:\Users\PhilFontahDev911\source\repos\philfontahdev\Group_7-Gestion_Stock\StockerBO\StockerBO\obj\Debug\StockerBO.csprojAssemblyReference.cache
+C:\Users\PhilFontahDev911\source\repos\philfontahdev\Group_7-Gestion_Stock\StockerBO\StockerBO\obj\Debug\StockerBO.csproj.CoreCompileInputs.cache
+C:\Users\PhilFontahDev911\source\repos\philfontahdev\Group_7-Gestion_Stock\StockerBO\StockerBO\obj\Debug\StockerBO.dll
+C:\Users\PhilFontahDev911\source\repos\philfontahdev\Group_7-Gestion_Stock\StockerBO\StockerBO\obj\Debug\StockerBO.pdb

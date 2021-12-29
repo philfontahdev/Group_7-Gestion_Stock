@@ -1,33 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using StockerBLL;
+using StockerBO;
 
 namespace StockerWinforms
 {
     public partial class FrmStock : Form
     {
         FournisseurManager stock;
+        List<Stock> stocks;
         public FrmStock()
         {
             InitializeComponent();
             stock = new FournisseurManager();
             LoadStock();
-        }
-
-        private void FrmStock_Load(object sender, EventArgs e)
-        {
-
-        }
-        private void LoadStock()
-        {
-            var stocks = stock.GetStock();
-            listViewProducts.Items.Clear();
-            foreach (var s in stocks)
-            {
-                ListViewItem lvi = new ListViewItem(new string[] { s.ReferenceP.ToString(), s.NameP, s.PriceP.ToString(), s.QuantiteP.ToString(), s.DateProduction.ToString(), s.DateExpiration.ToString(), s.nomCategorie });
-                lvi.Tag = s;
-                listViewProducts.Items.Add(lvi);
-            }
         }
         //
         #region ignore for now
@@ -103,7 +90,41 @@ namespace StockerWinforms
             txtbFAB.Text = "";
             txtbEXP.Text = "";
         }
+
+
+
+
         #endregion
         //
+        private void FrmStock_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void LoadStock()
+        {
+            var stocks = stock.GetStock();
+            listViewProducts.Items.Clear();
+            foreach (var s in stocks)
+            {
+                ListViewItem lvi = new ListViewItem(new string[] { s.ReferenceP.ToString(), s.NameP, s.PriceP.ToString(), s.QuantiteP.ToString(), s.DateProduction.ToString(), s.DateExpiration.ToString(), s.nomCategorie });
+                lvi.Tag = s;
+                listViewProducts.Items.Add(lvi);
+            }
+        }
+        private void Print_Click(object sender, EventArgs e)
+        {
+            var list = stock.GetStock();
+           /* foreach (var l in list)
+            {
+
+              stocks.Add(new Stock(l.nomCategorie, l.ReferenceP, l.NameP, l.PriceP, l.QuantiteP, l.DateProduction, l.DateExpiration) as Stock);
+            }*/
+            using (Facture form = new Facture(list, "stock.rdlc", DateTime.Now,"stock"))
+            {
+                form.ShowDialog();
+            }
+
+        }
+       
     }
 }

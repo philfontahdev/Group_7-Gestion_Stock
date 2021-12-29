@@ -78,7 +78,7 @@ namespace StockerWinforms
                         foreach (var i in products)
                             side = double.Parse(tBTotal.Text) + (i.PriceP * i.QuantiteP);
                         tBTotal.Text = side.ToString();
-                        comboBoxproductname.Text = string.Empty;
+                        comboBoxproductname.Text = "Products";
                         tBquantity.Text = string.Empty;
                         //tBreference.Text = string.Empty;
                     }
@@ -96,25 +96,38 @@ namespace StockerWinforms
             }
             catch
             {
-                MessageBox.Show($"{comboBoxproductname.Text} Does not exist in Stock", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                comboBoxproductname.BackColor = Color.MistyRose;
+                MessageBox.Show($"{comboBoxproductname.Text} not selected", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                comboBoxproductname.BackColor = Color.White;
             }
 
         }
         private void btprint_Click(object sender, EventArgs e)
         {
-             idf = run.Next();
-             idc = run.Next();
-             var r = new FactureC(idf, DateTime.Now);
-             Facture.Add(r);
-             var c = new Commande(idc);
-             command.Add(c);
-             using (Facture form = new Facture(products,idf.ToString(),DateTime.Now,idc.ToString(), "Fac.rdlc"))
-             {
-                 form.ShowDialog();
-             }
-             dataGridView1.Rows.Clear();
-             tBTotal.Text = 0.ToString();
-             products.Clear();
+            if (dataGridView1.Rows.Count != 0)
+            { 
+                idf = run.Next();
+                idc = run.Next();
+                var r = new FactureC(idf, DateTime.Now);
+                Facture.Add(r);
+                var c = new Commande(idc);
+                command.Add(c);
+                using (Facture form = new Facture(products, idf.ToString(), DateTime.Now, idc.ToString(), "Fac.rdlc", "facture"))
+                {
+                    form.ShowDialog();
+                }
+                dataGridView1.Rows.Clear();
+                tBTotal.Text = 0.ToString();
+                products.Clear();
+            }
+            else
+            {
+                dataGridView1.BackgroundColor = Color.MistyRose;
+                btAdd.BackColor = Color.MistyRose;
+                MessageBox.Show("Add Products to Cart", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dataGridView1.BackgroundColor = Color.CadetBlue;
+                btAdd.BackColor = Color.White;
+            }
         }
 
         private void btRemove_Click(object sender, EventArgs e)
@@ -145,6 +158,12 @@ namespace StockerWinforms
                         dataGridView1.ClearSelection();
                     }
 
+            }
+            else
+            {
+                dataGridView1.BackgroundColor = Color.MistyRose;
+                MessageBox.Show("No product has been selected", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dataGridView1.BackgroundColor = Color.CadetBlue;
             }
 
         }
