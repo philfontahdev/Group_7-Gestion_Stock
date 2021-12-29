@@ -275,5 +275,13 @@ namespace StockerWinforms
             //currentButton = null;
             //BtnClose.Visible = false;
         }
+        
+
+        private void FrmParent_Load(object sender, EventArgs e)
+        {
+            labelUserName.Text = Program.CurrentUser.FullnameU;
+            User.Text = Program.CurrentUser.FullnameU;
+            Stat.Text = Program.CurrentUser.Status;
+        }
     }
 }

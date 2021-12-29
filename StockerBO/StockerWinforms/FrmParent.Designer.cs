@@ -31,6 +31,7 @@ namespace StockerWinforms
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmParent));
             this.pnlMenu = new System.Windows.Forms.Panel();
+            this.btnFacture = new StockerWinforms.STButton();
             this.btnQuitte = new StockerWinforms.STButton();
             this.btnFournisseur = new StockerWinforms.STButton();
             this.btnThem = new StockerWinforms.STButton();
@@ -50,10 +51,15 @@ namespace StockerWinforms
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pnlParent = new System.Windows.Forms.Panel();
-            this.btnFacture = new StockerWinforms.STButton();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.User = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tooltip2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.Stat = new System.Windows.Forms.ToolStripStatusLabel();
             this.pnlMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.pnlTitre.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMenu
@@ -75,6 +81,28 @@ namespace StockerWinforms
             this.pnlMenu.Size = new System.Drawing.Size(141, 573);
             this.pnlMenu.TabIndex = 0;
             // 
+            // btnFacture
+            // 
+            this.btnFacture.BackColor = System.Drawing.Color.White;
+            this.btnFacture.BackgroundColor = System.Drawing.Color.White;
+            this.btnFacture.BorderColor = System.Drawing.Color.Black;
+            this.btnFacture.BorderRadius = 20;
+            this.btnFacture.BorderSize = 0;
+            this.btnFacture.FlatAppearance.BorderSize = 0;
+            this.btnFacture.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFacture.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFacture.ForeColor = System.Drawing.Color.Black;
+            this.btnFacture.Image = global::StockerWinforms.Properties.Resources.bill_30px;
+            this.btnFacture.Location = new System.Drawing.Point(6, 415);
+            this.btnFacture.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFacture.Name = "btnFacture";
+            this.btnFacture.Size = new System.Drawing.Size(130, 45);
+            this.btnFacture.TabIndex = 9;
+            this.btnFacture.Text = "Facture";
+            this.btnFacture.TextColor = System.Drawing.Color.Black;
+            this.btnFacture.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnFacture.UseVisualStyleBackColor = false;
+            // 
             // btnQuitte
             // 
             this.btnQuitte.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -89,7 +117,7 @@ namespace StockerWinforms
             this.btnQuitte.ForeColor = System.Drawing.Color.White;
             this.btnQuitte.Image = global::StockerWinforms.Properties.Resources.sign_out_24px;
             this.btnQuitte.Location = new System.Drawing.Point(6, 521);
-            this.btnQuitte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnQuitte.Margin = new System.Windows.Forms.Padding(2);
             this.btnQuitte.Name = "btnQuitte";
             this.btnQuitte.Size = new System.Drawing.Size(130, 45);
             this.btnQuitte.TabIndex = 8;
@@ -110,7 +138,7 @@ namespace StockerWinforms
             this.btnFournisseur.ForeColor = System.Drawing.Color.Black;
             this.btnFournisseur.Image = global::StockerWinforms.Properties.Resources.management_30px1;
             this.btnFournisseur.Location = new System.Drawing.Point(6, 316);
-            this.btnFournisseur.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFournisseur.Margin = new System.Windows.Forms.Padding(2);
             this.btnFournisseur.Name = "btnFournisseur";
             this.btnFournisseur.Size = new System.Drawing.Size(130, 45);
             this.btnFournisseur.TabIndex = 7;
@@ -135,7 +163,7 @@ namespace StockerWinforms
             this.btnThem.ForeColor = System.Drawing.Color.Black;
             this.btnThem.Image = global::StockerWinforms.Properties.Resources.gears_48px;
             this.btnThem.Location = new System.Drawing.Point(6, 366);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(130, 45);
             this.btnThem.TabIndex = 6;
@@ -149,7 +177,7 @@ namespace StockerWinforms
             // 
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.Location = new System.Drawing.Point(0, 0);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pbLogo.Name = "pbLogo";
             this.pbLogo.Size = new System.Drawing.Size(130, 63);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -169,7 +197,7 @@ namespace StockerWinforms
             this.btnClient.ForeColor = System.Drawing.Color.Black;
             this.btnClient.Image = global::StockerWinforms.Properties.Resources.management_30px;
             this.btnClient.Location = new System.Drawing.Point(6, 167);
-            this.btnClient.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClient.Margin = new System.Windows.Forms.Padding(2);
             this.btnClient.Name = "btnClient";
             this.btnClient.Size = new System.Drawing.Size(130, 45);
             this.btnClient.TabIndex = 5;
@@ -194,7 +222,7 @@ namespace StockerWinforms
             this.btnCategorie.ForeColor = System.Drawing.Color.Black;
             this.btnCategorie.Image = global::StockerWinforms.Properties.Resources.categorize_26px;
             this.btnCategorie.Location = new System.Drawing.Point(6, 118);
-            this.btnCategorie.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCategorie.Margin = new System.Windows.Forms.Padding(2);
             this.btnCategorie.Name = "btnCategorie";
             this.btnCategorie.Size = new System.Drawing.Size(130, 45);
             this.btnCategorie.TabIndex = 4;
@@ -219,7 +247,7 @@ namespace StockerWinforms
             this.POS.ForeColor = System.Drawing.Color.Black;
             this.POS.Image = global::StockerWinforms.Properties.Resources.bill_30px;
             this.POS.Location = new System.Drawing.Point(6, 266);
-            this.POS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.POS.Margin = new System.Windows.Forms.Padding(2);
             this.POS.Name = "POS";
             this.POS.Size = new System.Drawing.Size(130, 45);
             this.POS.TabIndex = 2;
@@ -244,7 +272,7 @@ namespace StockerWinforms
             this.btnCommande.ForeColor = System.Drawing.Color.Black;
             this.btnCommande.Image = global::StockerWinforms.Properties.Resources.order_history_30px;
             this.btnCommande.Location = new System.Drawing.Point(6, 217);
-            this.btnCommande.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCommande.Margin = new System.Windows.Forms.Padding(2);
             this.btnCommande.Name = "btnCommande";
             this.btnCommande.Size = new System.Drawing.Size(130, 45);
             this.btnCommande.TabIndex = 1;
@@ -270,7 +298,7 @@ namespace StockerWinforms
             this.btnStock.ForeColor = System.Drawing.Color.Black;
             this.btnStock.Image = global::StockerWinforms.Properties.Resources.gold_bars_32px;
             this.btnStock.Location = new System.Drawing.Point(6, 68);
-            this.btnStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnStock.Margin = new System.Windows.Forms.Padding(2);
             this.btnStock.Name = "btnStock";
             this.btnStock.Size = new System.Drawing.Size(130, 45);
             this.btnStock.TabIndex = 0;
@@ -285,6 +313,7 @@ namespace StockerWinforms
             // pnlTitre
             // 
             this.pnlTitre.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.pnlTitre.Controls.Add(this.statusStrip1);
             this.pnlTitre.Controls.Add(this.btnCloseChildForm);
             this.pnlTitre.Controls.Add(this.labelTitre);
             this.pnlTitre.Controls.Add(this.labelUserName);
@@ -311,7 +340,7 @@ namespace StockerWinforms
             this.btnCloseChildForm.ForeColor = System.Drawing.Color.White;
             this.btnCloseChildForm.Image = global::StockerWinforms.Properties.Resources.external_24px;
             this.btnCloseChildForm.Location = new System.Drawing.Point(2, 14);
-            this.btnCloseChildForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCloseChildForm.Margin = new System.Windows.Forms.Padding(2);
             this.btnCloseChildForm.Name = "btnCloseChildForm";
             this.btnCloseChildForm.Size = new System.Drawing.Size(26, 30);
             this.btnCloseChildForm.TabIndex = 9;
@@ -338,7 +367,7 @@ namespace StockerWinforms
             this.labelUserName.AutoSize = true;
             this.labelUserName.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelUserName.ForeColor = System.Drawing.Color.DimGray;
-            this.labelUserName.Location = new System.Drawing.Point(709, 14);
+            this.labelUserName.Location = new System.Drawing.Point(635, 16);
             this.labelUserName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelUserName.Name = "labelUserName";
             this.labelUserName.Size = new System.Drawing.Size(75, 17);
@@ -358,7 +387,7 @@ namespace StockerWinforms
             this.btnMaximise.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaximise.ForeColor = System.Drawing.Color.White;
             this.btnMaximise.Location = new System.Drawing.Point(837, 9);
-            this.btnMaximise.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMaximise.Margin = new System.Windows.Forms.Padding(2);
             this.btnMaximise.Name = "btnMaximise";
             this.btnMaximise.Size = new System.Drawing.Size(32, 24);
             this.btnMaximise.TabIndex = 2;
@@ -380,7 +409,7 @@ namespace StockerWinforms
             this.btnMinimise.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimise.ForeColor = System.Drawing.Color.White;
             this.btnMinimise.Location = new System.Drawing.Point(801, 9);
-            this.btnMinimise.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMinimise.Margin = new System.Windows.Forms.Padding(2);
             this.btnMinimise.Name = "btnMinimise";
             this.btnMinimise.Size = new System.Drawing.Size(32, 24);
             this.btnMinimise.TabIndex = 1;
@@ -402,7 +431,7 @@ namespace StockerWinforms
             this.btnQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuit.ForeColor = System.Drawing.Color.White;
             this.btnQuit.Location = new System.Drawing.Point(873, 9);
-            this.btnQuit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnQuit.Margin = new System.Windows.Forms.Padding(2);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(32, 24);
             this.btnQuit.TabIndex = 0;
@@ -416,7 +445,7 @@ namespace StockerWinforms
             this.panel1.BackColor = System.Drawing.Color.DarkTurquoise;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(141, 565);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(913, 8);
             this.panel1.TabIndex = 3;
@@ -426,7 +455,7 @@ namespace StockerWinforms
             this.panel2.BackColor = System.Drawing.Color.DarkTurquoise;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.Location = new System.Drawing.Point(1046, 68);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(8, 497);
             this.panel2.TabIndex = 4;
@@ -438,32 +467,48 @@ namespace StockerWinforms
             this.pnlParent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pnlParent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlParent.Location = new System.Drawing.Point(141, 68);
-            this.pnlParent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlParent.Margin = new System.Windows.Forms.Padding(2);
             this.pnlParent.Name = "pnlParent";
             this.pnlParent.Size = new System.Drawing.Size(913, 505);
             this.pnlParent.TabIndex = 2;
             // 
-            // btnFacture
+            // statusStrip1
             // 
-            this.btnFacture.BackColor = System.Drawing.Color.White;
-            this.btnFacture.BackgroundColor = System.Drawing.Color.White;
-            this.btnFacture.BorderColor = System.Drawing.Color.Black;
-            this.btnFacture.BorderRadius = 20;
-            this.btnFacture.BorderSize = 0;
-            this.btnFacture.FlatAppearance.BorderSize = 0;
-            this.btnFacture.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFacture.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFacture.ForeColor = System.Drawing.Color.Black;
-            this.btnFacture.Image = global::StockerWinforms.Properties.Resources.bill_30px;
-            this.btnFacture.Location = new System.Drawing.Point(6, 415);
-            this.btnFacture.Margin = new System.Windows.Forms.Padding(2);
-            this.btnFacture.Name = "btnFacture";
-            this.btnFacture.Size = new System.Drawing.Size(130, 45);
-            this.btnFacture.TabIndex = 9;
-            this.btnFacture.Text = "Facture";
-            this.btnFacture.TextColor = System.Drawing.Color.Black;
-            this.btnFacture.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnFacture.UseVisualStyleBackColor = false;
+            this.statusStrip1.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.User,
+            this.tooltip2,
+            this.Stat});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 46);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(913, 22);
+            this.statusStrip1.TabIndex = 10;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(72, 17);
+            this.toolStripStatusLabel1.Text = "UserName :";
+            // 
+            // User
+            // 
+            this.User.Name = "User";
+            this.User.Size = new System.Drawing.Size(0, 17);
+            // 
+            // tooltip2
+            // 
+            this.tooltip2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.tooltip2.Name = "tooltip2";
+            this.tooltip2.Size = new System.Drawing.Size(48, 17);
+            this.tooltip2.Text = "Status :";
+            // 
+            // Stat
+            // 
+            this.Stat.Name = "Stat";
+            this.Stat.Size = new System.Drawing.Size(0, 17);
             // 
             // FrmParent
             // 
@@ -480,10 +525,13 @@ namespace StockerWinforms
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormParent";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmParent_Load);
             this.pnlMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.pnlTitre.ResumeLayout(false);
             this.pnlTitre.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -511,5 +559,10 @@ namespace StockerWinforms
         private System.Windows.Forms.Panel panel2;
         private STButton btnCloseChildForm;
         private STButton btnFacture;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel User;
+        private System.Windows.Forms.ToolStripStatusLabel tooltip2;
+        private System.Windows.Forms.ToolStripStatusLabel Stat;
     }
 }
