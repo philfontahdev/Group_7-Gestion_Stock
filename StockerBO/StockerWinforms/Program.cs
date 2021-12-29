@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using StockerBO;
 
 namespace StockerWinforms
 {
     static class Program
     {
+        public static Utilisateur CurrentUser { get; set; }
         /// <summary>
         /// Point d'entrée principal de l'application.
         /// </summary>

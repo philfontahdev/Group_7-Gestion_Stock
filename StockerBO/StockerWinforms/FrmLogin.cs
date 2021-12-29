@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using StockerBLL;
 
 namespace StockerWinforms
 {
@@ -24,10 +19,10 @@ namespace StockerWinforms
         {
             //txtbEmail.BorderStyle = ButtonBorderStyle.Dotted;
         }
-        private bool IsAuthenticate()
+       /* private bool IsAuthenticate()
         {
             return txtbEmail.Text.Equals("ainapetula@gmail.com", StringComparison.OrdinalIgnoreCase) && txtbMDP.Text.Equals("20005");
-        }
+        }*/
 
         private void txtbMDP_TextChanged(object sender, EventArgs e)
         {
@@ -65,22 +60,32 @@ namespace StockerWinforms
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            if (IsAuthenticate())
+            try
             {
+                UserManager userManager = new UserManager();
+                var user = userManager.Authenticate(txtbEmail.Text, txtbMDP.Text);
+                if (user == null)
+                    throw new Exception("Email or password is incorrect !");
+
+                Program.CurrentUser = user;
+
+                MessageBox.Show($"Welcome {user.FullnameU} !", "Hello", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 var form = new FrmParent();
                 form.Show();
                 ExitApp = false;
                 this.Hide();
+
             }
-            else
+            catch(Exception me)
             {
-                MessageBox.Show
-                    (
-                       "Email or password is incorrect",
-                       "Error",
-                       MessageBoxButtons.OK,
-                       MessageBoxIcon.Error
-                    );
+                MessageBox.Show(me.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                /* MessageBox.Show
+                     (
+                        "Email or password is incorrect",
+                        "Error",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error
+                     );*/
             }
         }
 
