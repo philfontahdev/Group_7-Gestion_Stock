@@ -1,6 +1,6 @@
 ﻿namespace StockerWinforms
 {
-    partial class Facture
+    partial class Facture 
     {
         /// <summary>
         /// Required designer variable.
